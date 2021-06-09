@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".CompoundActivity">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="안드로이드폰" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아이폰" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="핸드폰" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="rad" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="blue" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="색상 변경" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/RadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="남성" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="여성" />
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

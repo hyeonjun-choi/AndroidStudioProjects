@@ -1,2 +1,5 @@
 rootProject.name = "My Application"
 include ':app'
+include ':basicwidget'
+include ':practice'
+include ':widget_more'

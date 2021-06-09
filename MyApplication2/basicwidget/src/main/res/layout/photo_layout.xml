@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="선택을 시작하겠습니다." />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="시작" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="좋아하는 동물은?"
+        android:visibility="invisible" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="puppy1" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="puppy2" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="puppy3" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="선택완료"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="fitXY" />
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="fitCenter" />
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="fitCrop" />
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CENTER" />
+
+    </RadioGroup>
+</LinearLayout>
